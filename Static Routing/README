@@ -1,0 +1,47 @@
+# Enterprise Static Routing & VLAN Network Topology (Cisco Packet Tracer)
+
+A comprehensive enterprise network simulation built in Cisco Packet Tracer, demonstrating multi-VLAN segmentation, inter-VLAN routing, and robust Static Routing configuration across multiple interconnected routers and switches.
+
+---
+
+## 🚀 Project Overview
+This project simulates a structured multi-department enterprise network layout. It implements strict network segmentation using VLANs to optimize broadcast domains and security, alongside manual static routing tables to ensure seamless end-to-end communication across different subnets.
+
+---
+
+## 🛠️ Network Architecture & Design
+
+### 1. VLAN Configuration & Segmentation
+* VLAN 10: Sales
+* VLAN 20: Stocks
+* VLAN 30: HR
+* VLAN 40: Boss / Management
+* VLAN 50: Finance
+
+### 2. Subnetting & Addressing Scheme
+* Subnets Used: 
+  * 192.168.10.0/24 (Sales)
+  * 192.168.20.0/24 (Stocks)
+  * 192.168.30.0/24 (HR)
+  * 192.168.40.0/24 (Boss)
+  * 192.168.50.0/24 (Finance)
+  * Point-to-Point serial/Gigabit links interconnecting core and distribution routers (e.g., 10.0.0.0/30 core backbone).
+
+### 3. Key Technologies & Protocols
+* Routing: Static Routing (Manual Route Configuration for inter-subnet reachability).
+* Switching: Access and Trunk ports, VLAN configuration, Spanning Tree concepts.
+* Simulation Tool: Cisco Packet Tracer (.pkt).
+
+---
+
+## 📂 Repository Contents
+* static_routing.pkt — The main Cisco Packet Tracer simulation file.
+* README.md — Project documentation and architecture guide.
+
+---
+
+## ⚙️ How to Run
+1. Download and install Cisco Packet Tracer (version 7.3 or higher recommended).
+2. Clone this repository or download the .pkt file directly:
+   `bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
