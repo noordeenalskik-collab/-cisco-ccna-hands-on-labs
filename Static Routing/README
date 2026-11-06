@@ -42,6 +42,3 @@ This project simulates a structured multi-department enterprise network layout. 
 
 ## ⚙️ How to Run
 1. Download and install Cisco Packet Tracer (version 7.3 or higher recommended).
-2. Clone this repository or download the .pkt file directly:
-   `bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
